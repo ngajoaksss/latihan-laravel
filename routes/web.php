@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main');
+    return view('main', [
+        "image" => "logosekolahpedia.png"
+    ]);
         
 });
 

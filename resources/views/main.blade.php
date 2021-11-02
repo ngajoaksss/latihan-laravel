@@ -12,10 +12,46 @@
     
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <section class = "home-section">
         <div class="container">
         <div class="logo">
-            <img src="https://sekolahpedia.id/template/images/logosekolahpedia.png">
+            <img src="img/{{ $image }}">
         </div>
         <div class="home-text">
             <h2 class="title">Daftar Sekolah Seluruh Indonesia</h2>
@@ -34,89 +70,7 @@
            </span> 
 
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="box-count">
-                    <a href="https://sekolahpedia.id/school/sd">
-                        <div class="icon">
-                            <img src="https://sekolahpedia.id/template/images/icon/sd.png">
-                        </div>
-                        <h3 class="title">SD/MI</h3>
-                    </a>
-                    <a class="btn btn-outline-danger" href="https://sekolahpedia.id/school/sd">
-                        <i class="fa fa-angel-right">
 
-                        </i>
-                    </a>
-                </div>
-
-            </div>
-              <div class="col-md-3">
-                <div class="box-count">
-                    <a href="https://sekolahpedia.id/school/smp">
-                        <div class="icon">
-                            <img src="https://sekolahpedia.id/template/images/icon/smp.png">
-                        </div>
-                        <h3 class="title">SMP/MTs</h3>
-                    </a>
-                    <a class="btn btn-outline-danger" href="https://sekolahpedia.id/school/smp">
-                        <i class="fa fa-angel-right">
-                            
-                        </i>
-                    </a>
-                </div>
-
-            </div>
-            <div class="col-md-3">
-                <div class="box-count">
-                    <a href="https://sekolahpedia.id/school/sma">
-                        <div class="icon">
-                            <img src="https://sekolahpedia.id/template/images/icon/sma.png">
-                        </div>
-                        <h3 class="title">SMA/MA</h3>
-                    </a>
-                    <a class="btn btn-outline-danger" href="https://sekolahpedia.id/school/sma">
-                        <i class="fa fa-angel-right">
-                            
-                        </i>
-                    </a>
-                </div>
-
-            </div>
-            <div class="col-md-3">
-                <div class="box-count">
-                    <a href="https://sekolahpedia.id/school/smk">
-                        <div class="icon">
-                            <img src="https://sekolahpedia.id/template/images/icon/smk.png">
-                        </div>
-                        <h3 class="title">SMK/MAK</h3>
-                    </a>
-                    <a class="btn btn-outline-danger" href="https://sekolahpedia.id/school/smk">
-                        <i class="fa fa-angel-right">
-                            
-                        </i>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        
-
-</div>
-</section>
-<section class="section">
-    <div class="container">
-        <div class="titleTop">
-            <h3>
-                PPDB
-                <span>Online</span>
-            </h3>
-        </div>
-    </div>
-    <ul class="employerList">
-        <li></li>
-    </ul>
-</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

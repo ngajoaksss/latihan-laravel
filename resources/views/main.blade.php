@@ -20,12 +20,16 @@
             <p class="desc">
                  <span class="prov">
                     <span>34</span>
-                    provinsi
+                    Provinsi
                 </span>
             <span class="kota">
                 <span>514</span>
-                kota
+                Kota
             </span>
+           <span class="kec">
+               <span>6675</span>
+               Kecamatan
+           </span> 
 
         </div>
         

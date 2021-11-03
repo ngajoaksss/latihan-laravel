@@ -55,7 +55,7 @@
             <img src="img/{{ $image }}">
         </div>
 
-        <div class="container">
+        <div>
             @yield('container')
         </div>
     

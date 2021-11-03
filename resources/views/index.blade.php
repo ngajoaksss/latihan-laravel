@@ -3,6 +3,8 @@
 @section('container')
     
 
+    
+
         <div class="home-text">
             <h2 class="title">Daftar Sekolah Seluruh Indonesia</h2>
             <p class="desc">
@@ -20,6 +22,6 @@
            </span> 
 
         </div>
-        
+
         @endsection    
     

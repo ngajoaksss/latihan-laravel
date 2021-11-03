@@ -23,3 +23,7 @@ Route::get('/', function () {
 Route::get('/daftar-sekolah', function () {
     return view('search');
 });
+
+Route::get('/produk', function () {
+    return view('jual');
+});

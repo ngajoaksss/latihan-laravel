@@ -1,7 +1,10 @@
 .home-text {
+   background-color: dodgerblue!important;
+}
+.texter {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  background-color: dodgerblue!important;
+  background-color: white!important;
 }

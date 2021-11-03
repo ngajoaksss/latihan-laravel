@@ -13,6 +13,7 @@
 
   
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <div class="home-text">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">sekolahpedia</a>
@@ -54,11 +55,14 @@
         <div class="logo">
             <img src="img/{{ $image }}">
         </div>
-
+        
         <div>
             @yield('container')
         </div>
-    
+        </div>
+        <div class="texter">
+
+      </div>
     
 
       </section>

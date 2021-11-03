@@ -5,7 +5,7 @@
 
     
 
-        <div class="home-text">
+        
             <h2 class="title">Daftar Sekolah Seluruh Indonesia</h2>
             <p class="desc">
                  <span class="prov">
@@ -21,7 +21,7 @@
                Kecamatan
            </span> 
 
-        </div>
+        
 
         @endsection    
     
